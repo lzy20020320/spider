@@ -1,0 +1,1216 @@
+{
+  "backendOrigin": "http://xk.autoisp.shu.edu.cn",
+  "courses": [
+    {
+      "category": "专业选修课",
+      "course_name": "汇编语言程序设计",
+      "course_number": "08305008",
+      "credit": "5.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "初等数论",
+      "course_number": "08305092",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "编码理论",
+      "course_number": "08305093",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "数值代数与计算方法",
+      "course_number": "08305114",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "单片机技术",
+      "course_number": "08306024",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "接口技术",
+      "course_number": "08306025",
+      "credit": "5.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "计算机图形学",
+      "course_number": "08306027",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "人工智能",
+      "course_number": "08306029",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "组合数学",
+      "course_number": "08306030",
+      "credit": "3.0",
+      "select": true,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "数字图像处理",
+      "course_number": "08306031",
+      "credit": "4.0",
+      "select": true,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "程序设计方法学",
+      "course_number": "08306034",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Oracle数据库",
+      "course_number": "08306038",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "多媒体技术",
+      "course_number": "08306041",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "软件规格说明技术",
+      "course_number": "08306042",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "计算机安全与保密技术A",
+      "course_number": "08306053",
+      "credit": "4.0",
+      "select": false,
+      "semester": "四年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "人机界面设计",
+      "course_number": "08306055",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "实用计算机英语",
+      "course_number": "08306060",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期,三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "统一建模语言UML",
+      "course_number": "08306070",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": ".NET应用开发技术",
+      "course_number": "08306087",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "实用计算机日语",
+      "course_number": "08306088",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期,三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "模式识别",
+      "course_number": "08306089",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "软件测试",
+      "course_number": "08306096",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "ACM程序设计(实践)",
+      "course_number": "08306098",
+      "credit": "4.0",
+      "select": false,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Java程序设计(实践)",
+      "course_number": "08306099",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "职业定位与就业导向",
+      "course_number": "08306110",
+      "credit": "2.0",
+      "select": false,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "软件项目管理",
+      "course_number": "08306113",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Java EE开发技术",
+      "course_number": "08306120",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "计算机视觉",
+      "course_number": "08306126",
+      "credit": "3.0",
+      "select": true,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Python计算",
+      "course_number": "08306128",
+      "credit": "3.0",
+      "select": false,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "信息安全技术",
+      "course_number": "08306131",
+      "credit": "4.0",
+      "select": false,
+      "semester": "四年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "大数据：从理论到实践A",
+      "course_number": "08306145",
+      "credit": "3.0",
+      "select": false,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "算法设计与分析A",
+      "course_number": "08306146",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Windows编程技术A",
+      "course_number": "08306147",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "嵌入式系统原理A",
+      "course_number": "08306148",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "Web开发技术A",
+      "course_number": "08306149",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "数据挖掘A",
+      "course_number": "08306150",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "大数据技术基础A",
+      "course_number": "08306151",
+      "credit": "3.0",
+      "select": false,
+      "semester": "四年级秋季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "区块链技术与数据经济学A",
+      "course_number": "08696027",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "专业选修课",
+      "course_name": "智能计算系统",
+      "course_number": "08696037",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "任意选修课",
+      "course_name": "日语入门(1)",
+      "course_number": "03006914",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "任意选修课",
+      "course_name": "机器学习概论",
+      "course_number": "09006047",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "体育基础课",
+      "course_number": "00853101",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "乒乓球(基础)",
+      "course_number": "00853205",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "游泳(基础)",
+      "course_number": "00853210",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "跆拳道(1)",
+      "course_number": "00853418",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "跆拳道(2)",
+      "course_number": "00853518",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "跆拳道(3)",
+      "course_number": "00853618",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语D(1)",
+      "course_number": "03004472",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语D(2)",
+      "course_number": "03004473",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语D(3)",
+      "course_number": "03004474",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语C(1)",
+      "course_number": "03004477",
+      "credit": "4.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语C(2)",
+      "course_number": "03004478",
+      "credit": "4.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语C(3)",
+      "course_number": "03004479",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语B(1)",
+      "course_number": "03004480",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用英语B(2)",
+      "course_number": "03004481",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用学术英语B(3)",
+      "course_number": "03004482",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用学术英语A(1)",
+      "course_number": "03004483",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用学术英语A(2)",
+      "course_number": "03004484",
+      "credit": "4.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "通用学术英语A(3)",
+      "course_number": "03004485",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语听力",
+      "course_number": "03004486",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语口语",
+      "course_number": "03004487",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语阅读",
+      "course_number": "03004488",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语写作",
+      "course_number": "03004489",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语翻译",
+      "course_number": "03004490",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "商务英语写作",
+      "course_number": "03004414",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "商务英语入门",
+      "course_number": "03004416",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "商务英语听说",
+      "course_number": "03004417",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "旅游英语",
+      "course_number": "03004419",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "法律英语",
+      "course_number": "03004421",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "商务英语英汉翻译",
+      "course_number": "03004491",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语新闻听力",
+      "course_number": "03004409",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语阅读与思辨",
+      "course_number": "03004492",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语演辩与思辨",
+      "course_number": "03004493",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "国际学术报告英语",
+      "course_number": "03004494",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语口译",
+      "course_number": "03004495",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "学术英语写作(人文类)",
+      "course_number": "03004496",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "学术英语写作(经管类)",
+      "course_number": "03004497",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "学术英语写作(理工类)",
+      "course_number": "03004498",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英美报刊选读",
+      "course_number": "03004413",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英美散文名篇选读",
+      "course_number": "03004422",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英美诗歌名篇选读",
+      "course_number": "03004423",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "英语国家概况",
+      "course_number": "03004424",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "欧洲文化入门",
+      "course_number": "03004502",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "西方文明",
+      "course_number": "03004503",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "中国文化精要",
+      "course_number": "03004504",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "澳洲社会与文化",
+      "course_number": "03004505",
+      "credit": "2.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "数据分析与智能计算",
+      "course_number": "00864118",
+      "credit": "3.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "程序设计(C语言)",
+      "course_number": "00864088",
+      "credit": "4.0",
+      "select": true,
+      "semester": "一年级秋季学期,一年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "工程制图与计算机绘图基础",
+      "course_number": "00864096",
+      "credit": "3.0",
+      "select": true,
+      "semester": "一年级秋季学期,一年级冬季学期,一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "军事理论A",
+      "course_number": "00914006",
+      "credit": "2.0",
+      "select": true,
+      "semester": "一年级秋季学期,一年级冬季学期,一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "线性代数",
+      "course_number": "01014104",
+      "credit": "3.0",
+      "select": true,
+      "semester": "一年级冬季学期,一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "微积分(1)",
+      "course_number": "01014125",
+      "credit": "6.0",
+      "select": true,
+      "semester": "一年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "微积分(2)",
+      "course_number": "01014126",
+      "credit": "6.0",
+      "select": true,
+      "semester": "一年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "微积分(3)",
+      "course_number": "01014127",
+      "credit": "4.0",
+      "select": true,
+      "semester": "一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理(1)",
+      "course_number": "01034117",
+      "credit": "4.0",
+      "select": true,
+      "semester": "一年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理(2)",
+      "course_number": "01034118",
+      "credit": "4.0",
+      "select": true,
+      "semester": "一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理实验(1)",
+      "course_number": "01034120",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理实验(2)",
+      "course_number": "01034121",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学化学",
+      "course_number": "01064246",
+      "credit": "2.0",
+      "select": true,
+      "semester": "一年级秋季学期,一年级冬季学期,一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学化学实验",
+      "course_number": "01064247",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级秋季学期,一年级冬季学期,一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "中国近现代史纲要B",
+      "course_number": "16584136",
+      "credit": "3.0",
+      "select": true,
+      "semester": "一年级春季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "思想道德与法治",
+      "course_number": "16584153",
+      "credit": "3.0",
+      "select": true,
+      "semester": "一年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "概率论与数理统计A",
+      "course_number": "01014016",
+      "credit": "5.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理(3)",
+      "course_number": "01034119",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "大学物理实验(3)",
+      "course_number": "01034122",
+      "credit": "1.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "形势与政策",
+      "course_number": "16583109",
+      "credit": "1.0",
+      "select": false,
+      "semester": "二年级秋季学期,二年级冬季学期,二年级春季学期,三年级秋季学期,三年级冬季学期,三年级春季学期,四年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "马克思主义基本原理",
+      "course_number": "16584168",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "毛泽东思想和中国特色社会主义理论体系概论(1)",
+      "course_number": "16584169",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "公共基础课",
+      "course_name": "毛泽东思想和中国特色社会主义理论体系概论(2)",
+      "course_number": "16584170",
+      "credit": "2.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数据结构(1)",
+      "course_number": "08305009",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数据结构(2)",
+      "course_number": "08305010",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "操作系统(1)",
+      "course_number": "08305011",
+      "credit": "4.0",
+      "select": true,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "操作系统(2)",
+      "course_number": "08305012",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数据库原理(1)",
+      "course_number": "08305014",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "软件工程",
+      "course_number": "08305016",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数字逻辑实验",
+      "course_number": "08305072",
+      "credit": "1.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机组成原理A(1)",
+      "course_number": "08305073",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机组成原理A(2)",
+      "course_number": "08305074",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机组成原理实验(1)",
+      "course_number": "08305075",
+      "credit": "1.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机组成原理实验(2)",
+      "course_number": "08305076",
+      "credit": "1.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机系统结构",
+      "course_number": "08305124",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "面向对象程序设计A",
+      "course_number": "08305138",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数字逻辑B",
+      "course_number": "08305139",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "离散数学A(1)",
+      "course_number": "08305140",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "离散数学A(2)",
+      "course_number": "08305141",
+      "credit": "3.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "计算机网络A",
+      "course_number": "08305142",
+      "credit": "5.0",
+      "select": true,
+      "semester": "三年级秋季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "数据库原理(2)",
+      "course_number": "08305143",
+      "credit": "3.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "学科基础课",
+      "course_name": "编译原理A",
+      "course_number": "08305144",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级春季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "思想道德与法治(实践)",
+      "course_number": "00874007",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "形势与政策(实践)",
+      "course_number": "00874008",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "军事技能",
+      "course_number": "00914003",
+      "credit": "2.0",
+      "select": true,
+      "semester": "一年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "思想政治理论课(实践)(1)",
+      "course_number": "1658A001",
+      "credit": "1.0",
+      "select": true,
+      "semester": "一年级春季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "创新创业实践",
+      "course_number": "0000A001",
+      "credit": "1.0",
+      "select": false,
+      "semester": ""
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "大学生社会实践",
+      "course_number": "00874028",
+      "credit": "1.0",
+      "select": false,
+      "semester": "一年级冬季学期,一年级春季学期,二年级秋季学期,二年级冬季学期,二年级春季学期,三年级秋季学期,三年级冬季学期,三年级春季学期,四年级秋季学期,四年级冬季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "计算思维实训(1)",
+      "course_number": "0830A030",
+      "credit": "2.0",
+      "select": true,
+      "semester": "二年级秋季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "计算思维实训(2)",
+      "course_number": "0830A031",
+      "credit": "2.0",
+      "select": true,
+      "semester": "二年级冬季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "计算机程序设计实训",
+      "course_number": "0830A033",
+      "credit": "2.0",
+      "select": true,
+      "semester": "一年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "思想政治理论课(实践)(2)",
+      "course_number": "1658A002",
+      "credit": "1.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "计算机硬件综合大型作业",
+      "course_number": "0830A011",
+      "credit": "4.0",
+      "select": true,
+      "semester": "二年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "计算机应用大型作业",
+      "course_number": "0830A012",
+      "credit": "4.0",
+      "select": false,
+      "semester": "三年级夏季学期"
+    },
+    {
+      "category": "实践教学环节",
+      "course_name": "毕业设计(论文)",
+      "course_number": "0830A035",
+      "credit": "24.0",
+      "select": false,
+      "semester": "四年级春季学期"
+    },
+    {
+      "category": "通识课",
+      "course_name": "无处不在的力学",
+      "course_number": "0100LH04",
+      "credit": "4.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "通识课",
+      "course_name": "生活中的计算思维",
+      "course_number": "0800LH01",
+      "credit": "4.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "通识课",
+      "course_name": "生活中的合同",
+      "course_number": "0600R812",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "通识课",
+      "course_name": "现代西方哲学十讲",
+      "course_number": "1600R409",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "通识课",
+      "course_name": "世界设计大观",
+      "course_number": "2200R608",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "通识课",
+      "course_name": "文化人类学入门",
+      "course_number": "2800R200",
+      "credit": "2.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "新生研讨课",
+      "course_name": "信息高速公路",
+      "course_number": "0700Y015",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "新生研讨课",
+      "course_name": "无处不在的机器人",
+      "course_number": "0900Y059",
+      "credit": "1.0",
+      "select": true,
+      "semester": ""
+    },
+    {
+      "category": "高年级研讨课",
+      "course_name": "计算机科学进展",
+      "course_number": "0830EY01",
+      "credit": "2.0",
+      "select": true,
+      "semester": "二年级春季学期"
+    },
+    {
+      "category": "高年级研讨课",
+      "course_name": "研究方法与前沿(计算机)",
+      "course_number": "0830SY02",
+      "credit": "2.0",
+      "select": false,
+      "semester": "三年级冬季学期"
+    }
+  ],
+  "hash": "bc0c5072df1ac7a8df83fe2ba42ef62e",
+  "termName": "2022-2023学年春季学期",
+  "updateTimeMs": 1679575270473
+}
