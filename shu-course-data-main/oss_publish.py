@@ -42,7 +42,7 @@ def get_term_data(term_id):
         'backendOrigin': data['backendOrigin'],
         'termName': data['termName'],
         'updateTimeMs': data['updateTimeMs'],
-        'courses': data['courses']
+        'cours': data['cours']
     }
 
 
@@ -52,53 +52,53 @@ if __name__ == '__main__':
     print(f'Current term ids: {", ".join(current_term_ids)}, use {use_term_id}.')
     term_data = get_term_data(use_term_id)
 
-    courses = [{
-        'campus': course['campus'],
-        'class_time': course['classTime'],
-        'course_id': course['courseId'],
-        'course_name': course['courseName'],
-        'credit': course['credit'],
-        'teacher_id': course['teacherId'],
-        'teacher_name': course['teacherName']
-    } for course in term_data['courses']]
-    course_hash = hashlib.md5(json.dumps(courses, sort_keys=True).encode('utf-8')).hexdigest()[:8]
+    cours = [{
+        'campus': selectedCourse['campus'],
+        'class_time': selectedCourse['classTime'],
+        'course_id': selectedCourse['courseId'],
+        'course_name': selectedCourse['courseName'],
+        'credit': selectedCourse['credit'],
+        'teacher_id': selectedCourse['teacherId'],
+        'teacher_name': selectedCourse['teacherName']
+    } for selectedCourse in term_data['cours']]
+    course_hash = hashlib.md5(json.dumps(cours, sort_keys=True).encode('utf-8')).hexdigest()[:8]
 
     info = {
         'backend': term_data['backendOrigin'],
         'hash': course_hash,
         'trimester': term_data['termName'],
-        'url': f'https://xk.shuosc.com/api/courses/{course_hash}.json'
+        'url': f'https://xk.shuosc.com/api/cours/{course_hash}.json'
     }
 
     extra = {
         'data': {
-            f'{course["courseId"]}-{course["teacherId"]}': {
-                'capacity': course['capacity'],
-                'limitations': course['limitations'],
-                'number': course['number'],
-                'venue': course['position'],
-                'teacher_title': course['teacherTitle']
-            } for course in term_data['courses']
+            f'{selectedCourse["courseId"]}-{selectedCourse["teacherId"]}': {
+                'capacity': selectedCourse['capacity'],
+                'limitations': selectedCourse['limitations'],
+                'number': selectedCourse['number'],
+                'venue': selectedCourse['position'],
+                'teacher_title': selectedCourse['teacherTitle']
+            } for selectedCourse in term_data['cours']
         },
         'hash': course_hash,
         'update_time': term_data['updateTimeMs']
     }
 
-    print(f'Upload term data file "api/courses/{course_hash}.json"')
+    print(f'Upload term data file "api/cours/{course_hash}.json"')
     bucket.put_object(
-        f'api/courses/{course_hash}.json',
-        json.dumps(courses, **JSON_DUMPS_KWARGS).encode('utf-8'),
+        f'api/cours/{course_hash}.json',
+        json.dumps(cours, **JSON_DUMPS_KWARGS).encode('utf-8'),
         {'Content-Type': 'application/json'}
     )
-    print(f'Upload term info file "api/courses/info"')
+    print(f'Upload term info file "api/cours/info"')
     bucket.put_object(
-        'api/courses/info',
+        'api/cours/info',
         json.dumps(info, **JSON_DUMPS_KWARGS).encode('utf-8'),
         {'Content-Type': 'application/json', 'Cache-Control': 'no-cache'}
     )
-    print(f'Upload term extra data file "api/courses/extra"')
+    print(f'Upload term extra data file "api/cours/extra"')
     bucket.put_object(
-        'api/courses/extra',
+        'api/cours/extra',
         json.dumps(extra, **JSON_DUMPS_KWARGS).encode('utf-8'),
         {'Content-Type': 'application/json', 'Cache-Control': 'no-cache'}
     )

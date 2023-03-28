@@ -116,7 +116,7 @@ class CrawlerSession:
             ClassKind.FRESHMAN_SEMINAR,
             ClassKind.SENIOR_SEMINAR,
         ]
-        courses = []
+        cours = []
 
         r = await self.__session.get(f'{self.__backend}/CourseSelectionStudent/PlanList',
                                      ssl=SSL_CONTEXT)
@@ -124,7 +124,7 @@ class CrawlerSession:
         table = soup.find('table', {'class': 'tbllist'})
         rows = table.find_all('tr', {'name': 'rowplancourse'})
         # 遍历所有行，并提取每行中的课程信息
-        courses = []
+        cours = []
         for row in rows:
             cells = row.find_all('td')
 
@@ -132,13 +132,13 @@ class CrawlerSession:
                 category = row.th.text.strip().replace("\n", "")
                 category = re.sub('\(\d+\.\d+/\d+\.\d+\)', '', category, count=0, flags=0)
                 if category not in classKinds:
-                    category = courses[-1]['category']
+                    category = cours[-1]['category']
 
             if cells[3].get_text().strip() =='':
                 select = False
             else:
                 select = True
-            course = {
+            selectedCourse = {
                 'category': category,
                 'course_number': cells[0].get_text().strip(),
                 'course_name': cells[1].get_text().strip(),
@@ -146,17 +146,17 @@ class CrawlerSession:
                 'select': select,
                 'semester': cells[4].get_text().strip()
             }
-            courses.append(course)
+            cours.append(selectedCourse)
         await asyncio.sleep(0.5)
 
-        data_hash = hashlib.md5(json.dumps(courses, sort_keys=True).encode()).hexdigest()
-        print(f'Fetch {len(courses)} courses ({data_hash})')
+        data_hash = hashlib.md5(json.dumps(cours, sort_keys=True).encode()).hexdigest()
+        print(f'Fetch {len(cours)} cours ({data_hash})')
         return {
             'hash': data_hash,
             'termName': self.__term_name,
             'backendOrigin': self.__backend,
             'updateTimeMs': int(time.time() * 1000),
-            'courses': courses,
+            'cours': cours,
         }
 
     async def logout(self):
@@ -201,7 +201,7 @@ async def do_crawl(output_dir, backend, username, password):
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
-    parser = argparse.ArgumentParser(description='Crawl courses data from SHU courses selection website.')
+    parser = argparse.ArgumentParser(description='Crawl cours data from SHU cours selection website.')
     parser.add_argument('backend', nargs='?', help='Backend URL.', default=DEFAULT_BACKEND)
     parser.add_argument('-o, --output-dir', nargs=1, help='Output dir, default is "data".', metavar='DIR')
     parser.add_argument('-u, --username', nargs=1, help='Your username.', metavar='USERNAME', required=True)

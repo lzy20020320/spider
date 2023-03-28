@@ -22,7 +22,7 @@ class Term:
 
     def get_courses(self):
         with open(os.path.join(self.folder_name, 'terms', f'{self.term_id}.json')) as fp:
-            return json.load(fp)['courses']
+            return json.load(fp)['cours']
 
 
 class DataRepo:
@@ -46,7 +46,7 @@ class DataRepo:
                         hash=data['hash'],
                         backend_origin=data['backendOrigin'],
                         update_time_ms=data['updateTimeMs'],
-                        num_courses=len(data['courses'])
+                        num_courses=len(data['cours'])
                     )
                 )
         self.__terms_dict = {x.term_id: x for x in self.__terms}

@@ -1,27 +1,27 @@
-# shu-course-data
+# shu-selectedCourse-data
 
 基于 GitHub Actions 的 SHU 课程爬虫，为 [SHU 排课助手](https://github.com/shuosc/shu-scheduling-helper) 和 [SHU 排课助手(v3)](https://github.com/shuosc/shu-scheduling-helper/tree/v3) 项目服务。
 
-[![Interval Crawler Task](https://github.com/shuosc/shu-course-data/actions/workflows/interval-crawler-task.yml/badge.svg?branch=main)](https://github.com/shuosc/shu-course-data/actions/workflows/interval-crawler-task.yml)
-[![Publish to COS](https://github.com/shuosc/shu-course-data/actions/workflows/publish-to-cos.yml/badge.svg?branch=data)](https://github.com/shuosc/shu-course-data/actions/workflows/publish-to-cos.yml)
-[![Publish to COS](https://github.com/shuosc/shu-course-data/actions/workflows/publish-to-oss.yml/badge.svg?branch=data)](https://github.com/shuosc/shu-course-data/actions/workflows/publish-to-oss.yml)
+[![Interval Crawler Task](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/interval-crawler-task.yml/badge.svg?branch=main)](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/interval-crawler-task.yml)
+[![Publish to COS](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/publish-to-cos.yml/badge.svg?branch=data)](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/publish-to-cos.yml)
+[![Publish to COS](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/publish-to-oss.yml/badge.svg?branch=data)](https://github.com/shuosc/shu-selectedCourse-data/actions/workflows/publish-to-oss.yml)
 
 ## 说明
 
 ### 本项目的两个工作流
 
 1. **Interval Crawler Task —
-   [位于`main`分支](https://github.com/shuosc/shu-course-data/blob/main/.github/workflows/interval-crawler-task.yml)**
+   [位于`main`分支](https://github.com/shuosc/shu-selectedCourse-data/blob/main/.github/workflows/interval-crawler-task.yml)**
 
    抓取课程数据：`crawler.py`；分析课程数据变化并推送数据到 `data` 分支（或创建 Pull Request 人工复审）：`post_crawler.py`；
 
 2. **Publish to COS —
-   [位于`data`分支](https://github.com/shuosc/shu-course-data/blob/data/.github/workflows/publish-to-cos.yml)**
+   [位于`data`分支](https://github.com/shuosc/shu-selectedCourse-data/blob/data/.github/workflows/publish-to-cos.yml)**
 
    上传到腾讯云 COS：`cos_publish.py`。
 
 3. **Publish to OSS —
-   [位于`data`分支](https://github.com/shuosc/shu-course-data/blob/data/.github/workflows/publish-to-oss.yml)**
+   [位于`data`分支](https://github.com/shuosc/shu-selectedCourse-data/blob/data/.github/workflows/publish-to-oss.yml)**
 
    上传到阿里云 OSS：`oss_publish.py`，兼容当前版本的 [SHU 排课助手](https://github.com/shuosc/shu-scheduling-helper)。
 
@@ -42,10 +42,10 @@
 
 | 字段            | 类型       | 说明                                                         |
 | --------------- | ---------- | ------------------------------------------------------------ |
-| `course`        | `Course[]` | 课程数据（`Course`具体字段略）                               |
+| `selectedCourse`        | `Course[]` | 课程数据（`Course`具体字段略）                               |
 | `termName`      | `string`   | 学期名称                                                     |
 | `backendOrigin` | `string`   | 学校选课系统后端 Origin，当前固定为 `http://xk.autoisp.shu.edu.cn` |
-| `hash`          | `string`   | 使用 Python 的`json.dumps`函数将`course`字段的值转为 JSON 格式（`sort_keys=True`，其他参数默认），对该 JSON 文本取 MD5 的值，用以标识本学期数据的版本 |
+| `hash`          | `string`   | 使用 Python 的`json.dumps`函数将`selectedCourse`字段的值转为 JSON 格式（`sort_keys=True`，其他参数默认），对该 JSON 文本取 MD5 的值，用以标识本学期数据的版本 |
 | `updateTimeMs`  | `number`   | 数据抓取时间，单位毫秒（ms）                                 |
 
 `current.json`内容为`termId`数组，即当前选课系统中开放的学期。
@@ -110,14 +110,14 @@
 
 ```bash
 pipenv install
-pipenv run python crawler.py -u <学号>
+pipenv run python personalCrawler.py -u <学号>
 ```
 
 如需查看所有爬虫命令，输入`pipenv run python crawler.py -h`。
 
 ## 许可证
 
-**代码：** [AGPL-3.0-or-later](https://github.com/shuosc/shu-course-data/main/LICENSE)
+**代码：** [AGPL-3.0-or-later](https://github.com/shuosc/shu-selectedCourse-data/main/LICENSE)
 
 基于此项目提供服务，包括发布程序运行结果以供下载，**必须**
 以相同许可证开源提供服务的源码和修改后的源码（如有）。

@@ -1,6 +1,6 @@
 {
   "backendOrigin": "http://xk.autoisp.shu.edu.cn",
-  "courses": [
+  "cours": [
     {
       "category": "专业选修课",
       "course_name": "汇编语言程序设计",
@@ -1212,5 +1212,5 @@
   ],
   "hash": "bc0c5072df1ac7a8df83fe2ba42ef62e",
   "termName": "2022-2023学年春季学期",
-  "updateTimeMs": 1679575270473
+  "updateTimeMs": 1679584053146
 }

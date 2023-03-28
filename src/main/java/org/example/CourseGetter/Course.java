@@ -1,58 +1,134 @@
 package org.example.CourseGetter;
 
-class Course {
-    private String courseKind;
+import java.util.List;
+
+public class Course {
+    private String campus;
+    private int capacity;
+    private String classTime;
     private String courseId;
     private String courseName;
-    private String credits;
-    private boolean select;
-    private String semester;
+    private float credit;
+    private List<String> limitations;
+    private String number;
+    private String position;
+    private String teacherId;
+    private String teacherName;
+    private String teacherTitle;
 
-    public String getCourseId() {
-        return courseId;
+    public Course() {}
+
+    public void setCampus(String campus) {
+        this.campus = campus;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setClassTime(String classTime) {
+        this.classTime = classTime;
     }
 
     public void setCourseId(String courseId) {
         this.courseId = courseId;
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
-
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
 
-    public String getCredits() {
-        return credits;
+    public void setCredit(float credit) {
+        this.credit = credit;
     }
 
-    public void setCredits(String credits) {
-        this.credits = credits;
+    public void setLimitations(List<String> limitations) {
+        this.limitations = limitations;
     }
 
-    public boolean isSelect() {
-        return select;
+    public void setNumber(String number) {
+        this.number = number;
     }
 
-    public void setSelect(boolean select) {
-        this.select = select;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
-    public String getSemester() {
-        return semester;
+    public void setTeacherId(String teacherId) {
+        this.teacherId = teacherId;
     }
 
-    public void setSemester(String semester) {
-        this.semester = semester;
+    public void setTeacherName(String teacherName) {
+        this.teacherName = teacherName;
     }
 
-    public String getCourseKind() {
-        return courseKind;
+    public void setTeacherTitle(String teacherTitle) {
+        this.teacherTitle = teacherTitle;
     }
 
-    public void setCourseKind(String courseKind) {
-        this.courseKind = courseKind;
+    public String getCampus() {
+        return campus;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getClassTime() {
+        return classTime;
+    }
+
+    public String getCourseId() {
+        return courseId;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public float getCredit() {
+        return credit;
+    }
+
+    public List<String> getLimitations() {
+        return limitations;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public String getTeacherId() {
+        return teacherId;
+    }
+
+    public String getTeacherName() {
+        return teacherName;
+    }
+
+    public String getTeacherTitle() {
+        return teacherTitle;
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "campus='" + campus + '\'' +
+                ", capacity=" + capacity +
+                ", classTime='" + classTime + '\'' +
+                ", courseId='" + courseId + '\'' +
+                ", courseName='" + courseName + '\'' +
+                ", credit=" + credit +
+                ", limitations=" + limitations +
+                ", number='" + number + '\'' +
+                ", position='" + position + '\'' +
+                ", teacherId='" + teacherId + '\'' +
+                ", teacherName='" + teacherName + '\'' +
+                ", teacherTitle='" + teacherTitle + '\'' +
+                '}';
     }
 }

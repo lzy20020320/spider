@@ -56,7 +56,7 @@ def extract_term_courses(term_id):
     return {
         'termId': term_id,
         'hash': data['hash'],
-        'courses': data['courses']
+        'cours': data['cours']
     }
 
 
@@ -91,10 +91,10 @@ if __name__ == '__main__':
     manifest_data = json.dumps(manifest, **JSON_DUMPS_KWARGS).encode('utf-8')
 
     for term_meta in all_term_meta:
-        courses = extract_term_courses(term_meta['termId'])
-        courses_data = json.dumps(courses['courses'], **JSON_DUMPS_KWARGS).encode('utf-8')
+        cours = extract_term_courses(term_meta['termId'])
+        courses_data = json.dumps(cours['cours'], **JSON_DUMPS_KWARGS).encode('utf-8')
         courses_data_list.append({
-            'filename': f'{courses["termId"]}.{courses["hash"]}.json',
+            'filename': f'{cours["termId"]}.{cours["hash"]}.json',
             'data': courses_data
         })
 

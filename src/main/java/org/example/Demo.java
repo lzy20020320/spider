@@ -4,7 +4,7 @@ import org.example.CourseGetter.CourseGetter;
 
 public class Demo {
     public static void main(String[] args) {
-        CourseGetter.GetCourses("20121517","20020320Qwerty");
-        CourseGetter.GetCourses("20121517");
+        CourseGetter.UpdatePersonalCourses("","");
+        CourseGetter.UpdateAllCourses();
     }
 }
